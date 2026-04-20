@@ -28,8 +28,9 @@ export const Invite: React.FC<InviteProps> = ({ code }) => {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16 md:py-24">
       <div className="text-center mb-12">
-        <div className="inline-block px-4 py-1.5 rounded-full bg-drip-elevated border border-drip-primary/30 mb-6">
-          <span className="text-sm font-semibold gradient-text">You've been invited</span>
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-drip-elevated border border-drip-primary/30 mb-6">
+          <span className="text-sm font-semibold gradient-text">You've been invited to Dripsta</span>
+          <span className="text-base" aria-hidden>😍</span>
         </div>
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight leading-tight">
           Your friend sent you <br />
@@ -52,27 +53,43 @@ export const Invite: React.FC<InviteProps> = ({ code }) => {
           </div>
           <button
             onClick={handleCopy}
-            className={`w-full py-4 rounded-xl font-bold text-base transition-all flex items-center justify-center gap-2 ${
+            aria-live="polite"
+            className={`group relative w-full h-14 rounded-xl font-bold text-base overflow-hidden transition-[background,box-shadow,transform] duration-500 ease-out active:scale-[0.98] ${
               copied
-                ? 'bg-drip-success text-black'
-                : 'ember-bg text-white hover:opacity-90'
+                ? 'copied-btn shadow-[0_0_40px_-8px_rgba(52,211,153,0.6)]'
+                : 'ember-bg text-white hover:shadow-[0_0_40px_-8px_rgba(249,115,22,0.6)]'
             }`}
           >
-            {copied ? (
-              <>
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+            <span
+              className={`absolute inset-0 flex items-center justify-center gap-2 text-white transition-all duration-300 ease-out ${
+                copied ? 'opacity-0 -translate-y-2 scale-95' : 'opacity-100 translate-y-0 scale-100'
+              }`}
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"
+                />
+              </svg>
+              Copy Code
+            </span>
+            <span
+              className={`absolute inset-0 flex items-center justify-center gap-2 text-white transition-all duration-300 ease-out ${
+                copied ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-2 scale-95'
+              }`}
+            >
+              <span
+                className={`inline-flex items-center justify-center w-6 h-6 rounded-full bg-white/20 ${
+                  copied ? 'animate-check-pop' : ''
+                }`}
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                 </svg>
-                Copied!
-              </>
-            ) : (
-              <>
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75" />
-                </svg>
-                Copy Code
-              </>
-            )}
+              </span>
+              Copied
+            </span>
           </button>
         </div>
       ) : (
@@ -117,24 +134,6 @@ export const Invite: React.FC<InviteProps> = ({ code }) => {
           Coming soon on iOS and Android
         </p>
       </div>
-
-      <div className="grid grid-cols-3 gap-4 mt-16">
-        <Perk emoji="🎁" title="2 Free Credits" description="Start scoring right away" />
-        <Perk emoji="🔥" title="AI Style Score" description="4-category analysis" />
-        <Perk emoji="🏆" title="Weekly Leaderboard" description="Compete globally" />
-      </div>
     </div>
   );
 };
-
-const Perk: React.FC<{ emoji: string; title: string; description: string }> = ({
-  emoji,
-  title,
-  description,
-}) => (
-  <div className="bg-drip-surface border border-drip-border/30 rounded-2xl p-4 md:p-6 text-center">
-    <div className="text-3xl md:text-4xl mb-2">{emoji}</div>
-    <div className="font-bold text-drip-text text-sm md:text-base mb-1">{title}</div>
-    <div className="text-drip-textTertiary text-xs md:text-sm">{description}</div>
-  </div>
-);
