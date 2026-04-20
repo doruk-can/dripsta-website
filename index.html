@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Dripsta | Rate Your Fit. Beat The Rest.</title>
+    <meta name="title" content="Dripsta | AI Fashion Scoring App" />
+    <meta name="description" content="Dripsta is an AI-powered fashion scoring app. Upload your outfit, get an instant style score with detailed feedback, and compete on the weekly leaderboard." />
+    <meta name="keywords" content="AI fashion, outfit rating, style score, fashion AI, outfit checker, style feedback, leaderboard, Gen Z fashion, streetwear app" />
+    <meta name="author" content="Ryon Labs LLC" />
+    <meta name="theme-color" content="#0e0e0e" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dripstaapp.com/" />
+    <meta property="og:title" content="Dripsta | AI Fashion Scoring App" />
+    <meta property="og:description" content="Rate your fit. Beat the rest. Get rated. Get styled. Get seen." />
+    <meta property="og:image" content="https://dripstaapp.com/dripsta-logo.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://dripstaapp.com/" />
+    <meta property="twitter:title" content="Dripsta | AI Fashion Scoring App" />
+    <meta property="twitter:description" content="Rate your fit. Beat the rest. Get rated. Get styled. Get seen." />
+    <meta property="twitter:image" content="https://dripstaapp.com/dripsta-logo.png" />
+
+    <link rel="icon" type="image/png" href="./dripsta-logo.png" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              drip: {
+                primary: '#ff8f78',
+                emberStart: '#E0492E',
+                emberEnd: '#F97316',
+                secondary: '#f4a954',
+                bg: '#0e0e0e',
+                surface: '#191a1a',
+                elevated: '#262626',
+                text: '#ffffff',
+                textSecondary: '#adaaaa',
+                textTertiary: '#767575',
+                border: '#484848',
+                gold: '#FFD700',
+                purple: '#A855F7',
+                error: '#ff6e84',
+                success: '#30D158',
+              },
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            backgroundImage: {
+              ember: 'linear-gradient(135deg, #E0492E 0%, #F97316 100%)',
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #0e0e0e;
+        color: #ffffff;
+      }
+      .gradient-text {
+        background: linear-gradient(135deg, #E0492E 0%, #F97316 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .ember-bg {
+        background: linear-gradient(135deg, #E0492E 0%, #F97316 100%);
+      }
+      .glow-ember {
+        box-shadow: 0 0 60px rgba(249, 115, 22, 0.25);
+      }
+    </style>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@^19.2.4",
+          "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+          "react/": "https://esm.sh/react@^19.2.4/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
