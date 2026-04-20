@@ -36,7 +36,7 @@ export const Invite: React.FC<InviteProps> = ({ code }) => {
           <span className="gradient-text">2 free credits</span>
         </h1>
         <p className="text-drip-textSecondary text-lg max-w-xl mx-auto">
-          Download Dripsta, sign up with this code, and start scoring your fits.
+          Your style verdict is one tap away.
         </p>
       </div>
 
