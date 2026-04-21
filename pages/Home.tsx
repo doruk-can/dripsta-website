@@ -103,7 +103,8 @@ export const Home: React.FC = () => {
       <section className="py-20 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">
-            Your style deserves a <span className="gradient-text">score.</span>
+            A fashion-trained eye. <br className="hidden md:block" />
+            <span className="gradient-text">Here to sharpen your drip</span>
           </h2>
           <p className="text-drip-textSecondary text-lg mb-10">Download Dripsta.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

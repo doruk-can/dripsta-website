@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
               <h3 className="text-xl font-extrabold text-drip-text">Dripsta</h3>
             </div>
             <p className="text-sm leading-relaxed max-w-xs">
-              AI-powered fashion scoring. Rate your fit, beat the rest. Get styled, get seen.
+              Trained on fashion. Rates your fit. Elevates your style. Lands you on the feed.
             </p>
           </div>
           <div>
