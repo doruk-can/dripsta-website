@@ -81,17 +81,17 @@ export const Home: React.FC = () => {
             <StepCard
               number="01"
               title="Upload Your Fit"
-              description="Snap it or grab it from your gallery. Pick the vibe — casual, work, date night, streetwear, plus 8 more."
+              description="Snap it or grab from your gallery. Pick the vibe — casual, work, date night, streetwear, plus 8 more."
             />
             <StepCard
               number="02"
               title="Get Your Score"
-              description="AI reads your fit across four lanes — Style Composition, Occasion Fit, Color Harmony, Trend Relevance. Score out of 100 and the specifics on what to level up."
+              description="AI reads your fit across four lanes — Style Composition, Occasion Fit, Color Harmony, Trend Relevance. Score out of 100 plus exactly how to level it up."
             />
             <StepCard
               number="03"
               title="Compete & Get Discovered"
-              description="Go public. You're on the weekly leaderboard. Stack likes, climb the ranks, drop your score card on Instagram and let them see the drip."
+              description="Go public. Land on the weekly leaderboard. Stack likes, climb the ranks, drop your score card on Instagram — let them see the drip."
             />
           </div>
         </div>
