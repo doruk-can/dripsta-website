@@ -5,10 +5,10 @@ export const Home: React.FC = () => {
     <div className="flex flex-col">
       {/* Hero */}
       <section className="relative px-4 py-20 md:py-32 max-w-7xl mx-auto w-full text-center overflow-hidden">
-        <div className="absolute inset-0 -z-10 opacity-60 pointer-events-none"
+        <div className="absolute inset-0 -z-10 opacity-40 pointer-events-none"
           style={{
             background:
-              'radial-gradient(600px circle at 50% 0%, rgba(220,38,38,0.35), transparent 60%)',
+              'radial-gradient(600px circle at 50% 0%, rgba(249,115,22,0.25), transparent 60%)',
           }}
         />
 
