@@ -22,17 +22,17 @@ export const Home: React.FC = () => {
           </div>
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight leading-tight">
-          Rate Your Fit. <br />
-          <span className="gradient-text">Beat The Rest.</span>
+        <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight leading-[0.95] uppercase">
+          Rate Your Fit <br />
+          <span className="gradient-text">Own The Feed</span>
         </h1>
         <p className="text-lg md:text-xl text-drip-textSecondary max-w-2xl mx-auto mb-4 leading-relaxed">
           Get rated. Get styled. Get seen.
         </p>
         <p className="text-base md:text-lg text-drip-textTertiary max-w-2xl mx-auto mb-12 leading-relaxed">
-          Dripsta is an AI-powered fashion scoring app. Upload your outfit, get an instant style
-          score with detailed feedback, and compete on the weekly leaderboard. Your pocket stylist
-          that actually tells you the truth.
+          Drop your fit. AI scores it out of 100 and tells you where the drip lands and where it
+          tanks. Ride the weekly leaderboard. Get seen. The stylist friend who won't sugarcoat — in
+          your pocket.
         </p>
 
         <div className="flex flex-col items-center justify-center gap-6">
@@ -76,24 +76,24 @@ export const Home: React.FC = () => {
             <h2 className="text-3xl md:text-5xl font-extrabold mb-4 tracking-tight">
               How It Works
             </h2>
-            <p className="text-drip-textSecondary text-lg">Three steps. No fluff.</p>
+            <p className="text-drip-textSecondary text-lg">Three taps. Zero fluff.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <StepCard
               number="01"
               title="Upload Your Fit"
-              description="Take a photo or pick from your gallery. Choose your occasion — casual, work, date night, streetwear, and 8 more."
+              description="Snap it or grab it from your gallery. Pick the vibe — casual, work, date night, streetwear, plus 8 more."
             />
             <StepCard
               number="02"
               title="Get Your Score"
-              description="AI analyzes your outfit across 4 dimensions: Style Composition, Occasion Fit, Color Harmony, and Trend Relevance. Score out of 100 with specific advice."
+              description="AI reads your fit across four lanes — Style Composition, Occasion Fit, Color Harmony, Trend Relevance. Score out of 100 and the specifics on what to level up."
             />
             <StepCard
               number="03"
               title="Compete & Get Discovered"
-              description="Go public and enter the weekly leaderboard. Get likes, climb the rankings, share your score card on Instagram."
+              description="Go public. You're on the weekly leaderboard. Stack likes, climb the ranks, drop your score card on Instagram and let them see the drip."
             />
           </div>
         </div>
