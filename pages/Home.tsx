@@ -99,63 +99,8 @@ export const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Features */}
-      <section className="py-20 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 tracking-tight">
-              Features
-            </h2>
-            <p className="text-drip-textSecondary text-lg">
-              Not a generic AI — a trained fashion eye.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <FeatureCard
-              title="AI Style Scoring"
-              description="4-category analysis powered by professional styling rubrics, color theory, and real-time trend data."
-            />
-            <FeatureCard
-              title="Style Map"
-              description="Body-region breakdown showing exactly where your outfit shines and where to level up. Head to toe."
-            />
-            <FeatureCard
-              title="Weekly Leaderboard"
-              description="Compete globally. Your best outfit of the week enters the ranking. Community likes boost your standing."
-              accent
-            />
-            <FeatureCard
-              title="Discover Feed"
-              description="Browse what others are wearing. Get inspired. Give likes. Find your style tribe."
-            />
-            <FeatureCard
-              title="Style Labels"
-              description='Every outfit gets a unique AI label — "Cyber-Punk Minimalist", "Clean Old Money", "Dark Academia Lite".'
-            />
-            <FeatureCard
-              title="Share Cards"
-              description="Every score becomes a shareable moment. Dynamic cards ready for Instagram Stories."
-            />
-            <FeatureCard
-              title="Your Style Portfolio"
-              description="Track your scores over time. See your best, your average, your progress. Link Instagram, TikTok, Snapchat."
-            />
-            <FeatureCard
-              title="Invite & Earn"
-              description="Invite friends, earn 3 credits each. They start with 2 credits. Everyone wins."
-            />
-            <FeatureCard
-              title="Premium Power"
-              description="Unlimited analyses and 5x like power on the leaderboard. Weekly, monthly, yearly plans."
-              accent
-            />
-          </div>
-        </div>
-      </section>
-
       {/* Footer CTA */}
-      <section className="py-20 px-4 bg-drip-surface">
+      <section className="py-20 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">
             Your style deserves a <span className="gradient-text">score.</span>
@@ -199,21 +144,3 @@ const StepCard: React.FC<{ number: string; title: string; description: string }>
   </div>
 );
 
-const FeatureCard: React.FC<{ title: string; description: string; accent?: boolean }> = ({
-  title,
-  description,
-  accent,
-}) => (
-  <div
-    className={`p-6 rounded-2xl border transition-all hover:-translate-y-1 ${
-      accent
-        ? 'bg-gradient-to-br from-drip-emberStart/10 to-drip-emberEnd/5 border-drip-primary/30'
-        : 'bg-drip-surface border-drip-border/30 hover:border-drip-border'
-    }`}
-  >
-    <h3 className={`text-lg font-bold mb-2 ${accent ? 'text-drip-primary' : 'text-drip-text'}`}>
-      {title}
-    </h3>
-    <p className="text-drip-textSecondary text-sm leading-relaxed">{description}</p>
-  </div>
-);
