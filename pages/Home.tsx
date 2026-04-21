@@ -22,7 +22,7 @@ export const Home: React.FC = () => {
           </div>
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight leading-[0.95] uppercase">
+        <h1 className="display text-5xl md:text-7xl mb-6 leading-[0.95]">
           Rate Your Fit <br />
           <span className="gradient-text">Own The Feed</span>
         </h1>
@@ -73,9 +73,7 @@ export const Home: React.FC = () => {
       <section className="py-20 px-4 bg-drip-surface">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 tracking-tight">
-              How It Works
-            </h2>
+            <h2 className="display text-3xl md:text-5xl mb-4">How It Works</h2>
             <p className="text-drip-textSecondary text-lg">Three taps. Zero fluff.</p>
           </div>
 
@@ -102,7 +100,7 @@ export const Home: React.FC = () => {
       {/* Footer CTA */}
       <section className="py-20 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">
+          <h2 className="display text-3xl md:text-5xl mb-6 leading-[1.05]">
             A fashion-trained eye. <br className="hidden md:block" />
             <span className="gradient-text">Here to sharpen your drip</span>
           </h2>
@@ -139,8 +137,13 @@ const StepCard: React.FC<{ number: string; title: string; description: string }>
   description,
 }) => (
   <div className="bg-drip-elevated p-8 rounded-2xl border border-drip-border/30 hover:border-drip-primary/50 transition-colors">
-    <div className="text-6xl font-black gradient-text mb-4 leading-none">{number}</div>
-    <h3 className="text-xl font-bold mb-3 text-drip-text">{title}</h3>
+    <div
+      className="font-display text-6xl font-black gradient-text mb-4 leading-none"
+      style={{ letterSpacing: '0.04em' }}
+    >
+      {number}
+    </div>
+    <h3 className="display text-lg mb-3 text-drip-text">{title}</h3>
     <p className="text-drip-textSecondary leading-relaxed">{description}</p>
   </div>
 );

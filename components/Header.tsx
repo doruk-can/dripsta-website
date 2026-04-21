@@ -27,9 +27,7 @@ export const Header: React.FC<HeaderProps> = ({ currentRoute }) => {
                 alt="Dripsta"
                 className="w-9 h-9 rounded-lg object-cover"
               />
-              <span className="font-extrabold text-2xl tracking-tight text-drip-text">
-                Dripsta
-              </span>
+              <span className="display text-xl md:text-2xl text-drip-text">Dripsta</span>
             </a>
           </div>
 

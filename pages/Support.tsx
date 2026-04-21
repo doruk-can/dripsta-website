@@ -3,7 +3,7 @@ import React from 'react';
 export const Support: React.FC = () => {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
-      <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-center tracking-tight">
+      <h1 className="display text-4xl md:text-5xl mb-4 text-center">
         How can we <span className="gradient-text">help?</span>
       </h1>
       <p className="text-center text-drip-textSecondary mb-12 max-w-xl mx-auto text-lg">
@@ -16,19 +16,19 @@ export const Support: React.FC = () => {
             <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
           </svg>
         </div>
-        <h3 className="text-2xl font-bold mb-4">Email Us</h3>
+        <h3 className="display text-2xl mb-4">Email Us</h3>
         <p className="text-drip-textSecondary mb-8">
           Our support team typically responds within 24 hours.
         </p>
         <a
           href="mailto:info@ryonlabs.com"
-          className="inline-block ember-bg text-white font-bold py-4 px-10 rounded-xl hover:opacity-90 transition-opacity shadow-lg"
+          className="inline-block ember-bg text-white font-semibold py-4 px-10 rounded-xl hover:opacity-90 transition-opacity shadow-lg"
         >
           info@ryonlabs.com
         </a>
       </div>
 
-      <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Common Questions</h2>
+      <h2 className="display text-2xl md:text-3xl mb-8 text-center">Common Questions</h2>
 
       <div className="space-y-4">
         <FAQ

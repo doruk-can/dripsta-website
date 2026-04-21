@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
                 alt="Dripsta"
                 className="w-8 h-8 rounded-lg object-cover"
               />
-              <h3 className="text-xl font-extrabold text-drip-text">Dripsta</h3>
+              <h3 className="display text-xl text-drip-text">Dripsta</h3>
             </div>
             <p className="text-sm leading-relaxed max-w-xs">
               Trained on fashion. Rates your fit. Elevates your style. Lands you on the feed.

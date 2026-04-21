@@ -32,7 +32,7 @@ export const Invite: React.FC<InviteProps> = ({ code }) => {
           <span className="text-sm font-semibold gradient-text">You've been invited to Dripsta</span>
           <span className="text-base" aria-hidden>😍</span>
         </div>
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight leading-tight">
+        <h1 className="display text-4xl md:text-6xl mb-4 leading-[1.02]">
           Your friend sent you <br />
           <span className="gradient-text">2 free credits</span>
         </h1>
@@ -54,7 +54,7 @@ export const Invite: React.FC<InviteProps> = ({ code }) => {
           <button
             onClick={handleCopy}
             aria-live="polite"
-            className={`group relative w-full h-14 rounded-xl font-bold text-base overflow-hidden transition-[background,box-shadow,transform] duration-500 ease-out active:scale-[0.98] ${
+            className={`display group relative w-full h-14 rounded-xl text-base overflow-hidden transition-[background,box-shadow,transform] duration-500 ease-out active:scale-[0.98] ${
               copied
                 ? 'copied-btn shadow-[0_0_40px_-8px_rgba(52,211,153,0.6)]'
                 : 'ember-bg text-white hover:shadow-[0_0_40px_-8px_rgba(249,115,22,0.6)]'

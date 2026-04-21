@@ -3,9 +3,7 @@ import React from 'react';
 export const Privacy: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-16">
-      <h1 className="text-4xl md:text-5xl font-extrabold mb-2 tracking-tight">
-        Privacy Policy
-      </h1>
+      <h1 className="display text-4xl md:text-5xl mb-2">Privacy Policy</h1>
       <p className="text-sm text-drip-textTertiary mb-12">Last Updated: April 20, 2026</p>
 
       <div className="space-y-10 text-drip-textSecondary leading-relaxed">
@@ -170,7 +168,7 @@ export const Privacy: React.FC = () => {
 
 const Section: React.FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => (
   <section>
-    <h2 className="text-2xl font-bold text-drip-text mb-4">{title}</h2>
+    <h2 className="display text-xl md:text-2xl text-drip-text mb-4">{title}</h2>
     {children}
   </section>
 );
