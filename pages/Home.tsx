@@ -30,9 +30,9 @@ export const Home: React.FC = () => {
           Get rated. Get styled. Get seen.
         </p>
         <p className="text-base md:text-lg text-drip-textTertiary max-w-2xl mx-auto mb-12 leading-relaxed">
-          Drop your fit. AI scores it out of 100 and tells you where the drip lands and where it
-          tanks. Ride the weekly leaderboard. Get seen. The stylist friend who won't sugarcoat — in
-          your pocket.
+          Drop your fit. A fashion-trained AI scores it, sharpens it, and gets it seen. Climb the
+          weekly board, share your card, grow your drip. The stylist friend who won't sugarcoat —
+          always in pocket.
         </p>
 
         <div className="flex flex-col items-center justify-center gap-6">
