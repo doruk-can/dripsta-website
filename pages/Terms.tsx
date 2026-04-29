@@ -307,29 +307,101 @@ export const Terms: React.FC = () => {
             perpetual, irrevocable, royalty-free, worldwide license to use them for any purpose
             without obligation or compensation to you.
           </p>
+
+          <SubTitle>8.3 Copyright Infringement / DMCA Notice</SubTitle>
+          <p>
+            We respect the intellectual property rights of others and respond to valid copyright
+            infringement notices submitted under the U.S. Digital Millennium Copyright Act
+            ("DMCA") and equivalent laws in other jurisdictions.
+          </p>
+          <p>
+            If you believe content on the Service infringes your copyright, send a written notice
+            to <Email /> including all of the following:
+          </p>
+          <ol className="list-decimal pl-6 space-y-2">
+            <li>Your physical or electronic signature.</li>
+            <li>Identification of the copyrighted work claimed to be infringed.</li>
+            <li>
+              Identification of the material claimed to be infringing, with sufficient detail
+              (e.g., URL, username, fit ID) to allow us to locate it.
+            </li>
+            <li>Your contact information (address, telephone number, email).</li>
+            <li>
+              A statement that you have a good-faith belief that the use is not authorized by the
+              copyright owner, its agent, or the law.
+            </li>
+            <li>
+              A statement, under penalty of perjury, that the information in the notice is
+              accurate and that you are authorized to act on behalf of the copyright owner.
+            </li>
+          </ol>
+          <p>
+            We will review valid notices and may remove or disable access to the allegedly
+            infringing content. Repeat infringers' accounts may be terminated. False or bad-faith
+            notices may result in liability for the sender.
+          </p>
         </Section>
 
         <Section title="9. Subscriptions, Credits & Payments">
           <SubTitle>9.1 Subscription Plans</SubTitle>
           <p>
-            The Service may offer optional paid subscription plans (e.g., Weekly Premium, Monthly
-            Premium) that provide additional credits, features, or access. Pricing, billing
-            cycles, and renewal terms are presented at the time of purchase.
+            The Service offers optional auto-renewable paid subscription plans, including (without
+            limitation) <Strong>Dripsta Premium Weekly</Strong> and{' '}
+            <Strong>Dripsta Premium Monthly</Strong>, which provide expanded analysis credits,
+            premium AI features, and other benefits. The exact title, length, and price of each
+            subscription are displayed within the App at the point of purchase and may vary by
+            region and currency.
+          </p>
+          <p>
+            <Strong>Fair use.</Strong> Premium plans grant a high allotment of analysis credits
+            per billing period (for example, 100 per week on the Weekly plan and 500 per month on
+            the Monthly plan, subject to change). While we describe Premium as offering
+            effectively unlimited everyday use, the credit allotment is a fair-use cap intended to
+            prevent automated abuse, scripting, or commercial exploitation, and is not a literal
+            unlimited entitlement. Specific quotas are displayed within the App and may be
+            adjusted from time to time. We may further restrict, throttle, or suspend access for
+            any account engaged in abuse, automation, or activity that materially exceeds typical
+            individual use.
           </p>
 
-          <SubTitle>9.2 Auto-Renewal</SubTitle>
+          <SubTitle>9.2 Auto-Renewal Disclosure</SubTitle>
           <p>
-            Subscriptions auto-renew at the end of each billing period unless cancelled at least
-            24 hours before the end of the current period. The renewal charge is the same price
-            as the current period unless otherwise communicated.
+            Subscriptions are <Strong>auto-renewable</Strong>. By purchasing a subscription, you
+            agree to the following:
           </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              <Strong>Payment will be charged</Strong> to your Apple ID account or Google Play
+              account at confirmation of purchase.
+            </li>
+            <li>
+              <Strong>Subscription auto-renews</Strong> at the end of each billing period (weekly
+              or monthly, depending on the plan) unless auto-renew is turned off{' '}
+              <Strong>at least 24 hours before</Strong> the end of the current period.
+            </li>
+            <li>
+              <Strong>Account will be charged for renewal</Strong> within 24 hours prior to the
+              end of the current period at the same price as the current period (unless we have
+              notified you of a price change in advance).
+            </li>
+            <li>
+              <Strong>Auto-renewal can be turned off</Strong> at any time by going to your Account
+              Settings on the App Store (Apple) or Subscriptions in Google Play (Google){' '}
+              <Strong>after purchase</Strong>. See Section 9.6.
+            </li>
+            <li>
+              <Strong>No refund</Strong> for the unused portion of the current billing period when
+              you cancel, except where required by applicable law.
+            </li>
+          </ul>
 
           <SubTitle>9.3 Payment Processing</SubTitle>
           <p>
             All payments are processed by <Strong>Apple</Strong> (App Store) or{' '}
             <Strong>Google</Strong> (Play Store). We do not receive, see, or store your payment
             card details, billing address, or full payment information. Subscription state is
-            verified through RevenueCat.
+            verified through RevenueCat. Pricing is set in your local currency by Apple or Google
+            based on the price tier we select.
           </p>
 
           <SubTitle>9.4 Credits</SubTitle>
@@ -362,22 +434,33 @@ export const Terms: React.FC = () => {
           <p>You may cancel your subscription at any time:</p>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              <Strong>Apple:</Strong> Settings → [your name] → Subscriptions
+              <Strong>Apple:</Strong> Settings → [your name] → Subscriptions → Dripsta → Cancel
+              Subscription
             </li>
             <li>
               <Strong>Google Play:</Strong> Play Store → Profile → Payments & subscriptions →
-              Subscriptions
+              Subscriptions → Dripsta → Cancel
             </li>
           </ul>
           <p>
             Cancelling stops future renewals but does not entitle you to a refund for the current
-            period unless required by applicable law.
+            period unless required by applicable law.{' '}
+            <Strong>Deleting your Dripsta account does NOT cancel your active subscription</Strong>{' '}
+            — you must cancel it through the Apple or Google account interface.
           </p>
 
-          <SubTitle>9.7 Price Changes</SubTitle>
+          <SubTitle>9.7 Free Trial / Promotional Offers</SubTitle>
+          <p>
+            If a free trial or promotional period is offered, any unused portion of that trial is
+            forfeited when you purchase a subscription, where applicable.
+          </p>
+
+          <SubTitle>9.8 Price Changes</SubTitle>
           <p>
             We reserve the right to change subscription prices. We will provide notice of price
-            changes through the App or by email. Continued use of the Service after a price change
+            changes through the App or by email. Where required by applicable law (including under
+            California's Automatic Renewal Law), we will obtain your affirmative consent before
+            any price increase takes effect. Continued use of the Service after a price change
             takes effect constitutes acceptance of the new price.
           </p>
         </Section>

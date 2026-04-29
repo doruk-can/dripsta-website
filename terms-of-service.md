@@ -145,21 +145,44 @@ The "DRIPSTA" name, logo, and tagline ("RATE YOUR FIT, OWN THE FEED" and similar
 
 If you submit feedback, suggestions, or ideas about the Service, you grant Dripsta a perpetual, irrevocable, royalty-free, worldwide license to use them for any purpose without obligation or compensation to you.
 
+### 8.3 Copyright Infringement / DMCA Notice
+
+We respect the intellectual property rights of others and respond to valid copyright infringement notices submitted under the U.S. Digital Millennium Copyright Act ("DMCA") and equivalent laws in other jurisdictions.
+
+If you believe content on the Service infringes your copyright, send a written notice to **info@ryonlabs.com** including all of the following:
+
+1. Your physical or electronic signature.
+2. Identification of the copyrighted work claimed to be infringed.
+3. Identification of the material claimed to be infringing, with sufficient detail (e.g., URL, username, fit ID) to allow us to locate it.
+4. Your contact information (address, telephone number, email).
+5. A statement that you have a good-faith belief that the use is not authorized by the copyright owner, its agent, or the law.
+6. A statement, under penalty of perjury, that the information in the notice is accurate and that you are authorized to act on behalf of the copyright owner.
+
+We will review valid notices and may remove or disable access to the allegedly infringing content. Repeat infringers' accounts may be terminated. False or bad-faith notices may result in liability for the sender.
+
 ---
 
 ## 9. Subscriptions, Credits & Payments
 
 ### 9.1 Subscription Plans
 
-The Service may offer optional paid subscription plans (e.g., Weekly Premium, Monthly Premium) that provide additional credits, features, or access. Pricing, billing cycles, and renewal terms are presented at the time of purchase.
+The Service offers optional auto-renewable paid subscription plans, including (without limitation) **Dripsta Premium Weekly** and **Dripsta Premium Monthly**, which provide expanded analysis credits, premium AI features, and other benefits. The exact title, length, and price of each subscription are displayed within the App at the point of purchase and may vary by region and currency.
 
-### 9.2 Auto-Renewal
+**Fair use.** Premium plans grant a high allotment of analysis credits per billing period (for example, 100 per week on the Weekly plan and 500 per month on the Monthly plan, subject to change). While we describe Premium as offering effectively unlimited everyday use, the credit allotment is a fair-use cap intended to prevent automated abuse, scripting, or commercial exploitation, and is not a literal unlimited entitlement. Specific quotas are displayed within the App and may be adjusted from time to time. We may further restrict, throttle, or suspend access for any account engaged in abuse, automation, or activity that materially exceeds typical individual use.
 
-Subscriptions auto-renew at the end of each billing period unless cancelled at least 24 hours before the end of the current period. The renewal charge is the same price as the current period unless otherwise communicated.
+### 9.2 Auto-Renewal Disclosure
+
+Subscriptions are **auto-renewable**. By purchasing a subscription, you agree to the following:
+
+- **Payment will be charged** to your Apple ID account or Google Play account at confirmation of purchase.
+- **Subscription auto-renews** at the end of each billing period (weekly or monthly, depending on the plan) unless auto-renew is turned off **at least 24 hours before** the end of the current period.
+- **Account will be charged for renewal** within 24 hours prior to the end of the current period at the same price as the current period (unless we have notified you of a price change in advance).
+- **Auto-renewal can be turned off** at any time by going to your Account Settings on the App Store (Apple) or Subscriptions in Google Play (Google) **after purchase**. See Section 9.6.
+- **No refund** for the unused portion of the current billing period when you cancel, except where required by applicable law.
 
 ### 9.3 Payment Processing
 
-All payments are processed by **Apple** (App Store) or **Google** (Play Store). We do not receive, see, or store your payment card details, billing address, or full payment information. Subscription state is verified through RevenueCat.
+All payments are processed by **Apple** (App Store) or **Google** (Play Store). We do not receive, see, or store your payment card details, billing address, or full payment information. Subscription state is verified through RevenueCat. Pricing is set in your local currency by Apple or Google based on the price tier we select.
 
 ### 9.4 Credits
 
@@ -178,14 +201,18 @@ Refund decisions are made by Apple or Google in their sole discretion.
 
 You may cancel your subscription at any time:
 
-- **Apple:** Settings → [your name] → Subscriptions
-- **Google Play:** Play Store → Profile → Payments & subscriptions → Subscriptions
+- **Apple:** Settings → [your name] → Subscriptions → Dripsta → Cancel Subscription
+- **Google Play:** Play Store → Profile → Payments & subscriptions → Subscriptions → Dripsta → Cancel
 
-Cancelling stops future renewals but does not entitle you to a refund for the current period unless required by applicable law.
+Cancelling stops future renewals but does not entitle you to a refund for the current period unless required by applicable law. **Deleting your Dripsta account does NOT cancel your active subscription** — you must cancel it through the Apple or Google account interface.
 
-### 9.7 Price Changes
+### 9.7 Free Trial / Promotional Offers
 
-We reserve the right to change subscription prices. We will provide notice of price changes through the App or by email. Continued use of the Service after a price change takes effect constitutes acceptance of the new price.
+If a free trial or promotional period is offered, any unused portion of that trial is forfeited when you purchase a subscription, where applicable.
+
+### 9.8 Price Changes
+
+We reserve the right to change subscription prices. We will provide notice of price changes through the App or by email. Where required by applicable law (including under California's Automatic Renewal Law), we will obtain your affirmative consent before any price increase takes effect. Continued use of the Service after a price change takes effect constitutes acceptance of the new price.
 
 ---
 
