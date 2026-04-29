@@ -5,7 +5,7 @@ export const Terms: React.FC = () => {
     <div className="max-w-4xl mx-auto px-4 py-16">
       <h1 className="display text-4xl md:text-5xl mb-2">Terms of Service</h1>
       <p className="text-sm text-drip-textTertiary mb-12">
-        Effective Date: April 26, 2026 · Last Updated: April 26, 2026
+        Effective Date: April 29, 2026 · Last Updated: April 29, 2026
       </p>
 
       <div className="space-y-10 text-drip-textSecondary leading-relaxed">
@@ -651,7 +651,10 @@ export const Terms: React.FC = () => {
               <Strong>Legal Compliance.</Strong> You represent and warrant that (a) you are not
               located in a country subject to a U.S. Government embargo or designated as a
               "terrorist supporting" country, and (b) you are not listed on any U.S. Government
-              list of prohibited or restricted parties.
+              list of prohibited or restricted parties. You also agree that you will not use the
+              App for any purposes prohibited by United States law, including (without limitation)
+              the development, design, manufacture, or production of nuclear, missile, or chemical
+              or biological weapons.
             </li>
             <li>
               <Strong>Third-Party Beneficiary.</Strong> You acknowledge and agree that Apple and
@@ -787,6 +790,43 @@ export const Terms: React.FC = () => {
             <Strong>Ryon Labs</Strong>
             <br />
             <Email />
+          </p>
+        </Section>
+
+        <Section title="23. Diagnostic Data and External Services">
+          <SubTitle>23.1 Consent to Diagnostic Data Collection</SubTitle>
+          <p>
+            You agree that Dripsta may collect and use technical and diagnostic data and related
+            information — including (but not limited to) information about your device, operating
+            system, app version, system and application software, and peripherals — gathered
+            periodically to facilitate the provision of software updates, product support,
+            security monitoring, abuse prevention, and other services related to the App. We may
+            use this information, in a form that does not personally identify you, to improve the
+            App or to provide services or technologies to you. Further details on the data we
+            collect and how it is used are described in our{' '}
+            <a href="#/privacy" className="text-drip-primary underline">
+              Privacy Policy
+            </a>
+            .
+          </p>
+
+          <SubTitle>23.2 External Services</SubTitle>
+          <p>
+            The App may enable access to Dripsta's and/or third-party services and websites
+            (collectively, "External Services"), including AI processing partners, app store
+            services, push notification services, and links to third-party websites such as
+            social media platforms.{' '}
+            <Strong>You agree to use External Services at your sole risk.</Strong> Dripsta is not
+            responsible for examining or evaluating the content, accuracy, completeness,
+            timeliness, or reliability of any third-party External Services and shall not be
+            liable for them. Information displayed by the App or via External Services is for
+            general informational and entertainment purposes only and is not guaranteed by
+            Dripsta or its agents. You agree not to use External Services in any manner that is
+            inconsistent with these Terms or that infringes the rights of any party. External
+            Services may not be available in all languages or in your home country and may not be
+            appropriate or available for use in any particular location. Dripsta reserves the
+            right to change, suspend, remove, disable, or impose access restrictions or limits on
+            any External Services at any time without notice or liability to you.
           </p>
         </Section>
 

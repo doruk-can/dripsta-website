@@ -5,7 +5,7 @@ export const Privacy: React.FC = () => {
     <div className="max-w-4xl mx-auto px-4 py-16">
       <h1 className="display text-4xl md:text-5xl mb-2">Privacy Policy</h1>
       <p className="text-sm text-drip-textTertiary mb-12">
-        Effective Date: April 26, 2026 · Last Updated: April 26, 2026
+        Effective Date: April 29, 2026 · Last Updated: April 29, 2026
       </p>
 
       <div className="space-y-10 text-drip-textSecondary leading-relaxed">
@@ -221,6 +221,20 @@ export const Privacy: React.FC = () => {
             is used.
           </p>
           <p>
+            <Strong>Third-party safeguards.</Strong> We select third-party providers — including
+            AI processing partners — whose publicly available terms, API policies, and security
+            practices align with the protections described in this Privacy Policy, including
+            encryption of data in transit, purpose-limited use, default opt-out from model
+            training, and limited retention windows.{' '}
+            <Strong>
+              We do not operate, control, or supervise any third-party provider's internal systems
+              and accept no liability and offer no warranty regarding their conduct.
+            </Strong>{' '}
+            For complete details on any specific provider's data handling, please consult that
+            provider's own published privacy policy and API terms; the providers we currently rely
+            on are listed in the table above.
+          </p>
+          <p>
             We may also share information when required by law, in response to a lawful request
             from a government authority, to enforce our Terms of Service, to protect our rights or
             property, or in connection with a corporate transaction (merger, acquisition, sale of
@@ -262,14 +276,56 @@ export const Privacy: React.FC = () => {
             will delete the photo from our storage bucket (subject to short-term backups).
           </p>
           <p>
-            <Strong>On-device processing.</Strong> On iOS, we use Apple Vision via our{' '}
+            <Strong>On-device processing.</Strong> On iOS, we use the{' '}
             <code className="bg-drip-elevated px-1.5 py-0.5 rounded text-drip-text text-xs">
-              person-segmentation
+              VNGeneratePersonSegmentationRequest
             </code>{' '}
-            native module to generate a coral outline overlay during the analysis loading screen.
-            This processing happens entirely on your device; no biometric or body data leaves your
-            device through this feature.
+            API from Apple Vision to generate a binary silhouette mask during the analysis loading
+            screen. This mask is rendered as a decorative coral outline animation that visually
+            communicates "processing in progress" to the user. The mask is computed entirely
+            on-device, held only in memory during the loading screen, and discarded immediately
+            afterward. It is <Strong>never transmitted, stored, or shared.</Strong>
           </p>
+          <p>
+            <Strong>No face data.</Strong> Dripsta does <Strong>not</Strong> collect, process,
+            store, or transmit face data. Specifically:
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>
+              We do <Strong>not</Strong> use Face ID, ARKit face tracking,{' '}
+              <code className="bg-drip-elevated px-1.5 py-0.5 rounded text-drip-text text-xs">
+                VNDetectFaceLandmarksRequest
+              </code>
+              ,{' '}
+              <code className="bg-drip-elevated px-1.5 py-0.5 rounded text-drip-text text-xs">
+                VNDetectFaceRectanglesRequest
+              </code>
+              ,{' '}
+              <code className="bg-drip-elevated px-1.5 py-0.5 rounded text-drip-text text-xs">
+                VNDetectFaceCaptureQualityRequest
+              </code>
+              , or any other facial detection, face recognition, or facial-feature API.
+            </li>
+            <li>
+              We do <Strong>not</Strong> extract, derive, or infer facial features, biometric
+              identifiers, age estimates, gender estimates, expressions, emotions, or any other
+              face-specific data from any image.
+            </li>
+            <li>
+              <code className="bg-drip-elevated px-1.5 py-0.5 rounded text-drip-text text-xs">
+                VNGeneratePersonSegmentationRequest
+              </code>{' '}
+              produces only a binary mask of where a human silhouette appears in an image; it does
+              not identify individuals or extract facial structure.
+            </li>
+            <li>
+              The user's outfit photo (which may incidentally include their face) is sent to a
+              third-party AI provider solely to evaluate <Strong>clothing</Strong>. The AI is
+              configured by system prompt to evaluate fit, color harmony, occasion
+              appropriateness, and trend relevance only, and is explicitly instructed not to
+              comment on the user's body, face, weight, skin, attractiveness, or identity.
+            </li>
+          </ul>
         </Section>
 
         <Section title="7. Public Content & User-Generated Content">

@@ -1,7 +1,7 @@
 # Dripsta Terms of Service
 
-**Effective Date:** April 26, 2026
-**Last Updated:** April 26, 2026
+**Effective Date:** April 29, 2026
+**Last Updated:** April 29, 2026
 
 These Terms of Service ("Terms") govern your access to and use of the Dripsta mobile application (the "App") and related services (collectively, the "Service"), provided by Ryon Labs, a company organized under the laws of the State of Wyoming, United States ("Dripsta," "we," "us," or "our").
 
@@ -300,7 +300,7 @@ If you accessed or downloaded the App from the Apple App Store, the following te
 - **Warranty.** In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price (if any) for the App. To the maximum extent permitted by law, Apple has no other warranty obligation with respect to the App. Any other claims, losses, liabilities, damages, costs, or expenses attributable to a failure to conform to a warranty are the sole responsibility of Ryon Labs.
 - **Product Claims.** Ryon Labs (and not Apple) is responsible for addressing any claims you or a third party have relating to the App, including (but not limited to) product liability claims, claims that the App fails to conform to any applicable legal or regulatory requirement, and claims arising under consumer protection or similar legislation.
 - **Intellectual Property Rights.** In the event of any third-party claim that the App or your use of the App infringes that third party's intellectual property rights, Ryon Labs (and not Apple) is solely responsible for the investigation, defense, settlement, and discharge of such claim.
-- **Legal Compliance.** You represent and warrant that (a) you are not located in a country subject to a U.S. Government embargo or designated as a "terrorist supporting" country, and (b) you are not listed on any U.S. Government list of prohibited or restricted parties.
+- **Legal Compliance.** You represent and warrant that (a) you are not located in a country subject to a U.S. Government embargo or designated as a "terrorist supporting" country, and (b) you are not listed on any U.S. Government list of prohibited or restricted parties. You also agree that you will not use the App for any purposes prohibited by United States law, including (without limitation) the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons.
 - **Third-Party Beneficiary.** You acknowledge and agree that Apple and its subsidiaries are third-party beneficiaries of these Terms, and that upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary.
 
 ---
@@ -377,6 +377,18 @@ For questions about these Terms, contact:
 
 **Ryon Labs**
 info@ryonlabs.com
+
+---
+
+## 23. Diagnostic Data and External Services
+
+### 23.1 Consent to Diagnostic Data Collection
+
+You agree that Dripsta may collect and use technical and diagnostic data and related information — including (but not limited to) information about your device, operating system, app version, system and application software, and peripherals — gathered periodically to facilitate the provision of software updates, product support, security monitoring, abuse prevention, and other services related to the App. We may use this information, in a form that does not personally identify you, to improve the App or to provide services or technologies to you. Further details on the data we collect and how it is used are described in our [Privacy Policy](https://dripstaapp.com/#/privacy).
+
+### 23.2 External Services
+
+The App may enable access to Dripsta's and/or third-party services and websites (collectively, "External Services"), including AI processing partners, app store services, push notification services, and links to third-party websites such as social media platforms. **You agree to use External Services at your sole risk.** Dripsta is not responsible for examining or evaluating the content, accuracy, completeness, timeliness, or reliability of any third-party External Services and shall not be liable for them. Information displayed by the App or via External Services is for general informational and entertainment purposes only and is not guaranteed by Dripsta or its agents. You agree not to use External Services in any manner that is inconsistent with these Terms or that infringes the rights of any party. External Services may not be available in all languages or in your home country and may not be appropriate or available for use in any particular location. Dripsta reserves the right to change, suspend, remove, disable, or impose access restrictions or limits on any External Services at any time without notice or liability to you.
 
 ---
 

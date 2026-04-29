@@ -1,7 +1,7 @@
 # Dripsta Privacy Policy
 
-**Effective Date:** April 26, 2026
-**Last Updated:** April 26, 2026
+**Effective Date:** April 29, 2026
+**Last Updated:** April 29, 2026
 
 This Privacy Policy describes how Ryon Labs ("Dripsta," "we," "us," or "our") collects, uses, shares, and protects information about you when you use the Dripsta mobile application (the "App") and related services (collectively, the "Service"). By creating an account or using the Service, you agree to the practices described in this Policy. If you do not agree, do not use the Service.
 
@@ -95,6 +95,8 @@ We share information only with the service providers required to operate Dripsta
 
 We may change AI providers from time to time as model capabilities evolve. We will continue to apply the protections described in this Policy regardless of which provider is used.
 
+**Third-party safeguards.** We select third-party providers — including AI processing partners — whose publicly available terms, API policies, and security practices align with the protections described in this Privacy Policy, including encryption of data in transit, purpose-limited use, default opt-out from model training, and limited retention windows. **We do not operate, control, or supervise any third-party provider's internal systems and accept no liability and offer no warranty regarding their conduct.** For complete details on any specific provider's data handling, please consult that provider's own published privacy policy and API terms; the providers we currently rely on are listed in the table above.
+
 We may also share information when required by law, in response to a lawful request from a government authority, to enforce our Terms of Service, to protect our rights or property, or in connection with a corporate transaction (merger, acquisition, sale of assets) where the recipient agrees to honor this Policy.
 
 We do **not** share your personal information with advertisers, data brokers, or marketers.
@@ -114,7 +116,14 @@ When you submit an outfit photo for rating:
 
 **You retain ownership of your photos.** You grant us a worldwide, non-exclusive, royalty-free license to host, process, transmit, display, and analyze your photos solely to provide the Service. If you delete a photo or your account, we will delete the photo from our storage bucket (subject to short-term backups).
 
-**On-device processing.** On iOS, we use Apple Vision via our `person-segmentation` native module to generate a coral outline overlay during the analysis loading screen. This processing happens entirely on your device; no biometric or body data leaves your device through this feature.
+**On-device processing.** On iOS, we use the `VNGeneratePersonSegmentationRequest` API from Apple Vision to generate a binary silhouette mask during the analysis loading screen. This mask is rendered as a decorative coral outline animation that visually communicates "processing in progress" to the user. The mask is computed entirely on-device, held only in memory during the loading screen, and discarded immediately afterward. It is **never transmitted, stored, or shared.**
+
+**No face data.** Dripsta does **not** collect, process, store, or transmit face data. Specifically:
+
+- We do **not** use Face ID, ARKit face tracking, `VNDetectFaceLandmarksRequest`, `VNDetectFaceRectanglesRequest`, `VNDetectFaceCaptureQualityRequest`, or any other facial detection, face recognition, or facial-feature API.
+- We do **not** extract, derive, or infer facial features, biometric identifiers, age estimates, gender estimates, expressions, emotions, or any other face-specific data from any image.
+- `VNGeneratePersonSegmentationRequest` produces only a binary mask of where a human silhouette appears in an image; it does not identify individuals or extract facial structure.
+- The user's outfit photo (which may incidentally include their face) is sent to a third-party AI provider solely to evaluate **clothing**. The AI is configured by system prompt to evaluate fit, color harmony, occasion appropriateness, and trend relevance only, and is explicitly instructed not to comment on the user's body, face, weight, skin, attractiveness, or identity.
 
 ---
 
